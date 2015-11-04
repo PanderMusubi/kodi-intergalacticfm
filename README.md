@@ -1,6 +1,8 @@
 Intergalactic FM Kodi Plugin
 ============================
 
+![Intergalactic FM icon](icon.png?raw=true)
+
 Installation
 ------------
 
@@ -34,3 +36,5 @@ Again on Linux and possibly Mac OSX
     unzip kodi-intergalacticfm-master.zip 
     mv kodi-intergalacticfm-master/ plugin.audio.intergalacticfm
     mv plugin.audio.intergalacticfm/ ~/kodi/addons/
+
+![Intergalactic FM fanart](fanart.jpg?raw=true)
