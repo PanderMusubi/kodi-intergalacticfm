@@ -23,7 +23,7 @@ msgid "Firewall friendly"
 msgstr ""
 
 msgctxt "#32004"
-msgid "SomaFM"
+msgid "Intergalactic FM"
 msgstr ""
 
 msgctxt "#32005"
@@ -43,7 +43,7 @@ msgid "Refresh channel list from server"
 msgstr ""
 
 msgctxt "#32009"
-msgid "Please consider donating to keep SomaFM alive.\nVisit https://somafm.com"
+msgid "Please consider donating to keep Intergalactic FM alive.\nVisit https://intergalacticfm.com"
 msgstr ""
 
 #enums
