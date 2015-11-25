@@ -20,7 +20,7 @@ CHANNELS_FILE_NAME = "channels.xml"
 
 __addon__ = "Intergalactic FM"
 __addonid__ = "plugin.audio.intergalacticfm"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 __ms_per_day__ = 24 * 60 * 60 * 1000
 

@@ -6,35 +6,13 @@ Intergalactic FM Kodi Plugin
 Installation
 ------------
 
-Installation currently requires you to know where your `addons` folder is located. Please refer to
-the [Kodi Wiki article on `userdata`](http://kodi.org/?title=Userdata) to find it. To find the
-`addons` folder, simply replace every instance of `userdata` in the article with `addons`.
+Currently, installation is only possible by downloading ZIP file of this add-on on your system that runs Kodi and install it via the Kodi GUI.
 
-### Git
+  1. Download the ZIP file of this add-on with `wget https://github.com/PanderMusubi/kodi-intergalacticfm/archive/master.zip` somewhere on your system that runs Kodi. Alternatively, you can download it in another way and copy it to your system running Kodi.
+  2. In the Kodi GUI, go to `Add-ons` and choose `Install from zip file`. Then select the downloaded file `master.zip` and this add-on will be installed.
+  3. If the add-on is not directly available, a restart of Kodi might be in place.
 
- 1. Change into your `addons` folder
- 2. Clone the repository into a new folder `plugin.audio.intergalacticfm`
- 3. Done
+In the near future, this add-on will be a default add-on that can be installed directly from Kodi.
 
-On Linux and possibly Mac OSX
-
-    cd ~/kodi/addons/
-    git clone https://github.com/Oderik/kodi-intergalacticfm.git plugin.audio.intergalacticfm
-
-### ZIP
-
-Unfortunately, installing from a ZIP-file is not a lot easier
-
- 1. [Download the ZIP Archive from GitHub](https://github.com/Oderik/kodi-intergalacticfm/archive/master.zip)
- 2. Extract the contents
- 3. Rename the resulting folder `kodi-intergalacticfm-master` to `plugin.audio.intergalacticfm`
- 4. Move the folder to your `addons` folder
-
-Again on Linux and possibly Mac OSX
-
-    wget --content-disposition https://github.com/Oderik/kodi-intergalacticfm/archive/master.zip
-    unzip kodi-intergalacticfm-master.zip 
-    mv kodi-intergalacticfm-master/ plugin.audio.intergalacticfm
-    mv plugin.audio.intergalacticfm/ ~/kodi/addons/
 
 ![Intergalactic FM fanart](fanart.jpg?raw=true)

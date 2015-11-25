@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.intergalacticfm"
        name="Intergalactic FM"
-       version="1.0.1"
-       provider-name="Oderik">
+       version="1.0.2"
+       provider-name="Pander">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup" version="3.0.8"/>
@@ -16,17 +16,17 @@
         <summary lang="de">Hörergetragenes Radio</summary>
         <summary lang="nl">Luisteraarondersteunde Radio</summary>
         <description lang="en"><![CDATA[
-Five channels of listener-supported, commercial-free, underground/alternative radio broadcasting from Intergalacic FM.
+Multiple channels of listener-supported, commercial-free, underground/alternative radio broadcasting from Intergalacic FM.
 
 Please consider donating at https://intergalacticfm.com to keep this service alive! Music Pro Galaxy.
         ]]></description>
         <description lang="de"><![CDATA[
-Fünf einzigartige Sender vom hörergetragenen, werbefreien, underground / alternative Radio von Intergalactic FM.
+Mehrere einzigartige Sender vom hörergetragenen, werbefreien, underground / alternative Radio von Intergalactic FM.
 
 Bitte denk über eine Spende auf https://intergalacticfm.com nach, um diesen Dienst am Leben zu halten! Music Pro Galaxy.
         ]]></description>
         <description lang="nl"><![CDATA[
-Vijf unieke kanalen van luisteraarondersteunde, reclamevrije, alternatieve radiouitzendingen van Intergalactic FM.
+Meerdere unieke kanalen van luisteraarondersteunde, reclamevrije, alternatieve radiouitzendingen van Intergalactic FM.
 
 Overweeg a.u.b. een donatie te doen op https://intergalacticfm.com om deze service in leven te houden! Music Pro Galaxy.
         ]]></description>

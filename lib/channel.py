@@ -9,7 +9,7 @@ import xbmc
 from xbmc import PLAYLIST_MUSIC
 
 
-__author__ = 'Oderik'
+__author__ = 'Pander'
 
 
 class Channel(object):
