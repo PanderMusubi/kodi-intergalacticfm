@@ -1,7 +1,9 @@
 Intergalactic FM Kodi Plugin
 ============================
 
+
 ![Intergalactic FM icon](icon.png?raw=true)
+
 
 Installation
 ------------
@@ -16,3 +18,11 @@ In the near future, this add-on will be a default add-on that can be installed d
 
 
 ![Intergalactic FM fanart](fanart.jpg?raw=true)
+
+
+Thanks
+------
+
+Thanks go to the authors of the original add-on that was developen for SomaFM for allowing to fork their work from https://github.com/Oderik/xbmc-somafm
+
+For that and other projects using channels.xml and channels.json, I also developed a schema for XML and JSON to describe online radio station channels, see https://github.com/PanderMusubi/online-radio-channels For this, thanks go to SomaFM for allowing to describe their dataformat and reviewing my work.
