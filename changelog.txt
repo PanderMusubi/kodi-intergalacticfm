@@ -1,6 +1,8 @@
-[B]Version 1.0.2 - 2015-11-03[/B]
+[B]Version 1.0.2 - 2015-11-25[/B]
 
 - Approved fork from from SomaFM for Intergalactic FM
+- Artwork from Intergalactic FM
+- Fanart from Yulia Vilensky
 
 
 
