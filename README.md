@@ -26,3 +26,5 @@ Thanks
 Thanks go to the authors of the original add-on that was developen for SomaFM for allowing to fork their work from https://github.com/Oderik/xbmc-somafm
 
 For that and other projects using channels.xml and channels.json, I also developed a schema for XML and JSON to describe online radio station channels, see https://github.com/PanderMusubi/online-radio-channels For this, thanks go to SomaFM for allowing to describe their dataformat and reviewing my work.
+
+Last but not least, thank you I-f for creating [Intergalactic FM](https://intergalacticfm.com) and embracing new initiatives and technologies to keep us all in musical orbit.
