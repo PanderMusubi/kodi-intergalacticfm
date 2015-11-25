@@ -5,8 +5,8 @@ import urllib2
 import urlparse
 from xml.etree import ElementTree
 
-import kodi
-from kodi import PLAYLIST_MUSIC
+import xbmc
+from xbmc import PLAYLIST_MUSIC
 
 
 __author__ = 'Oderik'
@@ -87,7 +87,7 @@ class Channel(object):
         for playlist_meta in self.get_prioritized_playlists():
             print "Trying " + str(playlist_meta)
             filepath = self.get_playlist_file(playlist_meta[2])
-            play_list = kodi.PlayList(PLAYLIST_MUSIC)
+            play_list = xbmc.PlayList(PLAYLIST_MUSIC)
             play_list.load(filepath)
             streams = []
             for i in range(0, play_list.size()):

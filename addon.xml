@@ -4,13 +4,13 @@
        version="1.0.1"
        provider-name="Oderik">
     <requires>
-        <import addon="kodi.python" version="2.1.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup" version="3.0.8"/>
     </requires>
-    <extension point="kodi.python.pluginsource" library="default.py">
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio</provides>
     </extension>
-    <extension point="kodi.addon.metadata">
+    <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en">Listener supported radio</summary>
         <summary lang="de">Hörergetragenes Radio</summary>

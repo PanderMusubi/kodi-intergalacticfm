@@ -7,13 +7,13 @@ import xml.etree.ElementTree as ET
 import time
 
 from lib.channel import Channel
-import kodiaddon
-from kodigui import ListItem
-import kodiplugin
-import kodigui
-import kodi
-from kodiplugin import SORT_METHOD_LISTENERS, SORT_METHOD_UNSORTED, SORT_METHOD_GENRE
-import kodivfs
+import xbmcaddon
+from xbmcgui import ListItem
+import xbmcplugin
+import xbmcgui
+import xbmc
+from xbmcplugin import SORT_METHOD_LISTENERS, SORT_METHOD_UNSORTED, SORT_METHOD_GENRE
+import xbmcvfs
 
 
 CHANNELS_FILE_NAME = "channels.xml"
@@ -26,14 +26,14 @@ __ms_per_day__ = 24 * 60 * 60 * 1000
 
 
 def log(msg):
-    kodi.log(str(msg))
+    xbmc.log(str(msg))
 
 
 log(sys.argv)
 
 rootURL = "https://intergalacticfm.com/"
-tempdir = kodi.translatePath("special://temp/intergalacticfm")
-kodivfs.mkdirs(tempdir)
+tempdir = xbmc.translatePath("special://temp/intergalacticfm")
+xbmcvfs.mkdirs(tempdir)
 
 LOCAL_CHANNELS_FILE_PATH = os.path.join(tempdir, CHANNELS_FILE_NAME)
 
@@ -86,7 +86,7 @@ def build_directory():
     stations = xml_data.findall(".//channel")
     for station in stations:
         channel = Channel(handle, tempdir, station)
-        li = kodigui.ListItem(
+        li = xbmcgui.ListItem(
             channel.get_simple_element('title'),
             channel.get_simple_element('description'),
             channel.geticon(),
@@ -103,29 +103,29 @@ def build_directory():
             value = channel.get_simple_element(element)
             li.setInfo("Music", {info: value})
 
-        kodiplugin.addDirectoryItem(
+        xbmcplugin.addDirectoryItem(
             handle=handle,
             url=plugin_url + channel.getid(),
             listitem=li,
             totalItems=len(stations))
-    kodiplugin.addSortMethod(handle, SORT_METHOD_UNSORTED)
-    kodiplugin.addSortMethod(handle, SORT_METHOD_LISTENERS)
-    kodiplugin.addSortMethod(handle, SORT_METHOD_GENRE)
+    xbmcplugin.addSortMethod(handle, SORT_METHOD_UNSORTED)
+    xbmcplugin.addSortMethod(handle, SORT_METHOD_LISTENERS)
+    xbmcplugin.addSortMethod(handle, SORT_METHOD_GENRE)
 
 
 def firewall_mode():
-    return kodiplugin.getSetting(handle, "firewall") == 'true'
+    return xbmcplugin.getSetting(handle, "firewall") == 'true'
 
 
 def format_priority():
-    setting = kodiplugin.getSetting(handle, "priority_format")
+    setting = xbmcplugin.getSetting(handle, "priority_format")
     result = [["mp3"], ["mp3", "aac"], ["aac", "mp3"], ["aac"], ][int(setting)]
     print "Format setting is %s, using priority %s" % (setting, str(result))
     return result
 
 
 def quality_priority():
-    setting = kodiplugin.getSetting(handle, "priority_quality")
+    setting = xbmcplugin.getSetting(handle, "priority_quality")
     result = [['slowpls', 'fastpls', 'highestpls', ], ['fastpls', 'slowpls', 'highestpls', ],
                 ['fastpls', 'highestpls', 'slowpls', ], ['highestpls', 'fastpls', 'slowpls', ], ][int(setting)]
     print "Quality setting is %s, using priority %s" % (setting, str(result))
@@ -133,7 +133,7 @@ def quality_priority():
 
 
 def cache_ttl_in_ms():
-    setting = kodiplugin.getSetting(handle, "cache_ttl")
+    setting = xbmcplugin.getSetting(handle, "cache_ttl")
     result = [0, __ms_per_day__, 7 * __ms_per_day__, 30 * __ms_per_day__][int(setting)]
     print "Cache setting is %s, using ttl of %dms" % (setting, result)
     return result
@@ -156,16 +156,16 @@ def play(item_to_play):
                          channel.geticon(),
                          channel.getthumbnail(),
                          channel.get_content_url())
-    kodiplugin.setResolvedUrl(handle, True, list_item)
+    xbmcplugin.setResolvedUrl(handle, True, list_item)
 
 
 def clearcache():
     shutil.rmtree(tempdir, True)
-    addon = kodiaddon.Addon(id=__addonid__)
+    addon = xbmcaddon.Addon(id=__addonid__)
     heading = addon.getLocalizedString(32004)
     message = addon.getLocalizedString(32005)
-    kodigui.Dialog().notification(
-        heading, message, kodigui.NOTIFICATION_INFO, 1000)
+    xbmcgui.Dialog().notification(
+        heading, message, xbmcgui.NOTIFICATION_INFO, 1000)
 
 
 if handle == 0:
@@ -182,4 +182,4 @@ else:
     else:
         build_directory()
 
-    kodiplugin.endOfDirectory(handle)
+    xbmcplugin.endOfDirectory(handle)
