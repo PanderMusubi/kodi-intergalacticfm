@@ -20,19 +20,19 @@ CHANNELS_FILE_NAME = "channels.xml"
 
 __addon__ = "Intergalactic FM"
 __addonid__ = "plugin.audio.intergalacticfm"
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 
 __ms_per_day__ = 24 * 60 * 60 * 1000
 
 
 def log(msg):
-    xbmc.log(str(msg))
+    xbmc.log(str(msg), level=xbmc.LOGDEBUG)
 
 
 log(sys.argv)
 
 rootURL = "https://intergalacticfm.com/"
-tempdir = xbmc.translatePath("special://temp/intergalacticfm")
+tempdir = xbmc.translatePath("special://home/userdata/addon_data/%s" % __addonid__)
 xbmcvfs.mkdirs(tempdir)
 
 LOCAL_CHANNELS_FILE_PATH = os.path.join(tempdir, CHANNELS_FILE_NAME)
