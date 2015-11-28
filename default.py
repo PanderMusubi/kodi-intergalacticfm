@@ -92,6 +92,7 @@ def build_directory():
             channel.geticon(),
             channel.getthumbnail(),
             plugin_url + channel.getid())
+        li.setArt({"fanart" : xbmc.translatePath("special://home/addons/%s/fanart.jpg" % __addonid__)})
 
         li.setProperty("IsPlayable", "true")
 
@@ -156,6 +157,7 @@ def play(item_to_play):
                          channel.geticon(),
                          channel.getthumbnail(),
                          channel.get_content_url())
+    list_item.setArt({"fanart" : xbmc.translatePath("special://home/addons/%s/fanart.jpg" % __addonid__)})
     xbmcplugin.setResolvedUrl(handle, True, list_item)
 
 
