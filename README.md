@@ -1,5 +1,5 @@
-Intergalactic FM Kodi Plugin
-============================
+Intergalactic FM Kodi Audio Plugin
+==================================
 
 
 ![Intergalactic FM icon](icon.png?raw=true)
@@ -20,10 +20,16 @@ In the near future, this add-on will be a default add-on that can be installed d
 ![Intergalactic FM fanart](fanart.jpg?raw=true)
 
 
+See also
+--------
+
+See also the video plugin for Intergalactic FM at http://kodi.wiki/view/Add-on:IntergalacticFM and https://github.com/PanderMusubi/plugin.video.intergalacticfm
+
+
 Thanks
 ------
 
-Thanks go to the authors of the original add-on that was developen for SomaFM for allowing to fork their work from https://github.com/Oderik/xbmc-somafm
+Thanks go to the authors of the original add-on that was developed for SomaFM for allowing to fork their work from https://github.com/Oderik/xbmc-somafm
 
 Credits go to [Yulia Vilenksy](http://yuliavilensky.com) for persmission to use her photograph used as fanart.
 

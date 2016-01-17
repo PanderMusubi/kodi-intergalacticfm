@@ -12,24 +12,25 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Listener supported radio</summary>
-        <summary lang="de">Hörergetragenes Radio</summary>
-        <summary lang="nl">Luisteraarondersteunde Radio</summary>
+        <summary lang="en">Music Pro Galaxy</summary>
+        <summary lang="de">Music Pro Galaxy</summary>
+        <summary lang="nl">Music Pro Galaxy</summary>
         <description lang="en"><![CDATA[
 Multiple channels of listener-supported, commercial-free, underground/alternative radio broadcasting from Intergalacic FM.
 
-Please consider donating at https://intergalacticfm.com to keep Intergalactic FM in orbit! Music Pro Galaxy.
+Please consider donating at https://intergalacticfm.com to keep Intergalactic FM in orbit!
         ]]></description>
         <description lang="de"><![CDATA[
 Mehrere einzigartige Sender vom hörergetragenen, werbefreien, underground / alternative Radio von Intergalactic FM.
 
-Bitte denk über eine Spende auf https://intergalacticfm.com nach, um Intergalactic FM in der Umlaufbahn zu erhalte! Music Pro Galaxy.
+Bitte denk über eine Spende auf https://intergalacticfm.com nach, um Intergalactic FM in der Umlaufbahn zu erhalte!
         ]]></description>
         <description lang="nl"><![CDATA[
 Meerdere unieke kanalen van luisteraarondersteunde, reclamevrije, alternatieve radiouitzendingen van Intergalactic FM.
 
-Overweeg a.u.b. een donatie te doen op https://intergalacticfm.com om Intergalactic FM in haar baan te houden! Music Pro Galaxy.
+Overweeg a.u.b. een donatie te doen op https://intergalacticfm.com om Intergalactic FM in haar baan te houden!
         ]]></description>
+        <license>GNU General Public License, Version 2</license>
         <website>https://intergalacticfm.com</website>
         <source>https://github.com/PanderMusubi/plugin.audio.intergalacticfm</source>
     </extension>
