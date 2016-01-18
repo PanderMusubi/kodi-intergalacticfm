@@ -14,7 +14,7 @@ Currently, installation is only possible by downloading ZIP file of this add-on 
   2. In the Kodi GUI, go to `Add-ons` and choose `Install from zip file`. Then select the downloaded file `master.zip` and this add-on will be installed.
   3. If the add-on is not directly available, a restart of Kodi might be in place.
 
-In the near future, this add-on will be a default add-on that can be installed directly from Kodi. That ill be announced at http://kodi.wiki/view/Add-on:Intergalactic_FM when it is included in the standard repostory of Kodi.
+In the near future, this add-on will be a default add-on that can be installed directly from Kodi. That will be announced at http://kodi.wiki/view/Add-on:Intergalactic\_FM when it is included in the standard repostory of Kodi.
 
 
 ![Intergalactic FM fanart](fanart.jpg?raw=true)
@@ -23,7 +23,7 @@ In the near future, this add-on will be a default add-on that can be installed d
 See also
 --------
 
-See also the video plugin for Intergalactic FM at http://kodi.wiki/view/Add-on:IntergalacticFM and https://github.com/PanderMusubi/plugin.video.intergalacticfm
+See also the video plugin called Intergalactic FM TV at http://kodi.wiki/view/Add-on:IntergalacticFMTV and https://github.com/PanderMusubi/plugin.video.intergalacticfm
 
 
 Thanks
