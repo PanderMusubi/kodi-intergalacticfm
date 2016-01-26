@@ -38,6 +38,7 @@ Overweeg a.u.b. een donatie te doen op https://intergalacticfm.com om Intergalac
         ]]></description>
         <license>GNU General Public License, Version 2</license>
         <website>https://intergalacticfm.com</website>
+        <forum>http://forum.kodi.tv/showthread.php?tid=257200</forum>
         <source>https://github.com/PanderMusubi/plugin.audio.intergalacticfm</source>
     </extension>
 </addon>
