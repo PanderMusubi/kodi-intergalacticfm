@@ -23,7 +23,7 @@ In the near future, this add-on will be a default add-on that can be installed d
 See also
 --------
 
-See also the video plugin called Intergalactic FM TV at http://kodi.wiki/view/Add-on:IntergalacticFMTV and https://github.com/PanderMusubi/plugin.video.intergalacticfm
+See also the video plugin called Intergalactic FM TV at http://kodi.wiki/view/Add-on:Intergalactic_FM_TV and https://github.com/PanderMusubi/plugin.video.intergalacticfm
 
 
 Thanks
