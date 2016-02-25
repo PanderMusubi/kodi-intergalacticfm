@@ -31,7 +31,7 @@ def log(msg):
 
 log(sys.argv)
 
-rootURL = "https://intergalacticfm.com/"
+rootURL = "http://intergalacticfm.com/"
 tempdir = xbmc.translatePath("special://home/userdata/addon_data/%s" % __addonid__)
 xbmcvfs.mkdirs(tempdir)
 
