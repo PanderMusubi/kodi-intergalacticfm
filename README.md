@@ -35,4 +35,4 @@ Credits go to [Yulia Vilenksy](http://yuliavilensky.com) for persmission to use 
 
 For that and other projects using channels.xml and channels.json, I also developed a schema for XML and JSON to describe online radio station channels, see https://github.com/PanderMusubi/online-radio-channels For this, thanks go to SomaFM for allowing to describe their dataformat and reviewing my work.
 
-Last but not least, thank you I-f and others for creating [Intergalactic FM](https://intergalacticfm.com) and embracing new initiatives and technologies to keep us all in musical orbit.
+Last but not least, thank you I-f and others for creating [Intergalactic FM](http://intergalacticfm.com) and embracing new initiatives and technologies to keep us all in musical orbit.
