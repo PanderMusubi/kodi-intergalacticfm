@@ -18,26 +18,26 @@
         <description lang="en"><![CDATA[
 Multiple channels of listener-supported, commercial-free, underground/alternative radio broadcasting from Intergalacic FM.
 
-See also the video plugin.
+See also the video plugin. Please consider donating at https://intergalactic.fm to keep Intergalactic FM in orbit.
 
-Please consider donating at https://intergalacticfm.com to keep Intergalactic FM in orbit. No Station Such Dedication!
+No Station Such Dedication
         ]]></description>
         <description lang="de"><![CDATA[
 Mehrere einzigartige Sender vom hörergetragenen, werbefreien, underground / alternative Radio von Intergalactic FM.
 
-Siehe auch die Video-Plugin.
+Siehe auch die Video-Plugin. Bitte denk über eine Spende auf https://intergalactic.fm nach, um Intergalactic FM in der Umlaufbahn zu erhalte.
 
-Bitte denk über eine Spende auf https://intergalacticfm.com nach, um Intergalactic FM in der Umlaufbahn zu erhalte. No Station Such Dedication!
+No Station Such Dedication
         ]]></description>
         <description lang="nl"><![CDATA[
-Meerdere unieke kanalen van luisteraarondersteunde, reclamevrije, alternatieve radiouitzendingen van Intergalactic FM.
+Meerdere unieke kanalen van luisteraarsondersteunde, reclamevrije, alternatieve radiouitzendingen van Intergalactic FM.
 
-Zie ook de videoplugin.
+Zie ook de videoplugin. Overweeg a.u.b. een donatie te doen op https://intergalactic.fm om Intergalactic FM in haar baan te houden.
 
-Overweeg a.u.b. een donatie te doen op https://intergalacticfm.com om Intergalactic FM in haar baan te houden. No Station Such Dedication!
+No Station Such Dedication
         ]]></description>
         <license>GNU General Public License, Version 2</license>
-        <website>https://intergalacticfm.com</website>
+        <website>https://intergalactic.fm</website>
         <forum>http://forum.kodi.tv/showthread.php?tid=257200</forum>
         <source>https://github.com/intergalacticfm/plugin.audio.intergalacticfm</source>
     </extension>
